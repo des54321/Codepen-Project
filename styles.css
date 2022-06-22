@@ -1,0 +1,199 @@
+/* Comments are for people with bad variable names */
+body {
+    margin:0px;
+    color:white;
+    font-family: 'Azeret Mono', monospace;
+    letter-spacing: -1px;
+    font-size: 0.8em;
+}
+/* Main NavBar */
+.nav-bar {
+    height:100px;
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+.nav-bar > .left > .logo img{
+    height:40px;
+    width:200px;
+}
+.nav-bar > .left > .logo {
+    padding:10px;
+}
+.nav-bar > .left{
+    display:flex;
+    align-items: center;
+}
+.nav-bar > .left > .words-nav{
+    padding-left:50px;
+}
+.nav-bar > .left > .words-nav > .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar > .left > .words-nav > .bottom > .word{
+    padding:5px 10px;
+    font-size:1.3em;
+    font-weight: 900;
+}
+.nav-bar > .left > .words-nav > .top{
+    padding-left:10px;
+    color:gold;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.nav-bar > .left > .words-nav > .bottom > .chev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:grey;
+    padding-left:25px;
+    font-size:1.3em;
+}
+.nav-bar > .right{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar > .right > .button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:120px;
+    height:60px;
+    background-color: #444444;
+    border:1px solid #444444;
+    border-radius: 5px;
+    margin:10px;
+    font-size: 1.3em;
+    letter-spacing: -1px;
+    font-weight:700 ;
+}
+.nav-bar > .right > .search{
+    font-size:2.5em;
+    padding:0px 10px;
+    color:#777777;
+}
+.nav-bar > .left > .words-nav > .bottom > .chev > .icon-chev{
+    font-size:0.6em;
+    padding-left:8px;
+}
+.nav-bar > .right > .button > .button-chev{
+    color:lightgreen;
+    font-size: 1.2em;
+    padding-left:10px;
+}
+/* Body of the page */
+.main{
+    background-image: radial-gradient(at top left,#555555,#222222);
+    width:100%;
+    height:420px;
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+}
+.main > .left-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:400px;
+    padding-left:40px;
+}
+.main > .left-column > .buttons-l{
+    display: flex;
+    align-items: center;
+}
+.main > .left-column > .buttons-l > .green-b{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:250px;
+    height:60px;
+    background-color: lightgreen;
+    border:1px solid lightgreen;
+    border-radius: 5px;
+    margin-right:5px;
+    font-size: 1.8em;
+    letter-spacing: -1px;
+    font-weight:900 ;
+    color:black;
+}
+.main > .left-column > .buttons-l > .black-b{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    height:60px;
+    background-color: black;
+    border:1px solid black;
+    border-radius: 5px;
+    margin-left:5px;
+    font-size: 1.8em;
+    letter-spacing: -1px;
+    font-weight:900 ;
+}
+.main > .right-column > .picture img{
+    width :100%;
+    height:350px;
+}
+.main > .right-column > .picture{
+    margin-top:5px;
+    box-shadow: 8px 8px 26px 10px #111111;
+}
+.main > .right-column{
+    padding-left:80px;
+}
+.main > .right-column > .label{
+    padding-top:30px;
+    font-size: 1.3em;
+    font-weight: 900;
+    word-spacing: -5px;
+}
+.main > .left-column > .paragraphs > .top-p{
+    font-size:2em;
+    padding-bottom: 20px;
+}
+.main > .left-column > .paragraphs > .bottom-p{
+    font-size:1.75em;
+    color:#888888;
+    font-weight: 400;
+    line-height: 35px;
+}
+.main > .left-column > .paragraphs{
+    font-weight: 100;
+    padding-top:30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+/* Spans to make stuff look cool */
+.bold-span {
+    font-weight: 900;
+}
+.blue-span{
+    color:#99ccff;
+}
+.span-f{
+    margin-left: 10px;
+    font-weight: 900;
+    font-size:1.6rem;
+}
+/* The footer */
+.footer {
+    width:100%;
+    height:60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #505050;
+}
+.footer > .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #505050;
+    border:3px solid #666666;
+    border-radius: 1px;
+    z-index: 1;
+}
